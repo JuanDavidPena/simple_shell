@@ -6,7 +6,8 @@
  * @s:Status of last execute
  * Return: 0 Succes -1 Fail
  */
-int history_dis(__attribute__((unused))char **cmd, __attribute__((unused))int s)
+int history_dis(__attribute__((unused))char **cmd,
+	 __attribute__((unused))int s)
 {
 	char *filename = ".simple_shell_history";
 	FILE *fp;
