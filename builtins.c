@@ -8,7 +8,7 @@
  * @er: codigo de error anterior
  * Return: Void
  */
-void  exit_bi(char **cmd, char *input, char **argv, int c, int er)
+int exit_bi(char **cmd, char *input, char **argv, int c, int er)
 {
 	int status, i = 0;
 

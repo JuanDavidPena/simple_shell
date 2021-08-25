@@ -77,7 +77,7 @@ int dis_env(char **cmd, int er);
 int change_dir(char **cmd, int er);
 int display_help(char **cmd, int er);
 int echo_bi(char **cmd, int er);
-void  exit_bi(char **cmd, char *input, char **argv, int c);
+int exit_bi(char **cmd, char *input, char **argv, int c, int er);
 int print_echo(char **cmd);
 
 /** errors */
